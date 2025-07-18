@@ -1,11 +1,17 @@
+## Project about laravel auth breeze with JWT
+
 ## Require php
 PHP 8.2
 
 ## Create Project
+```bash
 composer create-project --prefer-dist laravel/laravel:^11.0 your-project-name
+```
 
 ## Install laravel breeze
+```bash
 composer require laravel/breeze --dev
+```
 
 ## Set Default String Length
 => app/Providers/AppServiceProvider.php
