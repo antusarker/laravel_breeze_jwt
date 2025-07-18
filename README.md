@@ -11,22 +11,23 @@ composer require laravel/breeze --dev
 => app/Providers/AppServiceProvider.php
 Add this line to the boot() method:
 
-``bash
+```bash
 use Illuminate\Support\Facades\Schema;
 
 public function boot()
 {
     Schema::defaultStringLength(191);
 }
-``
+```
 
 ## install jwt
-
+```bash
 composer require tymon/jwt-auth
 
 php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
 
 php artisan jwt:secret
+```
 
 Now set into guard for API and users Models.
 
