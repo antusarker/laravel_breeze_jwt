@@ -11,6 +11,7 @@ composer create-project --prefer-dist laravel/laravel:^11.0 your-project-name
 ## Install laravel breeze
 ```bash
 composer require laravel/breeze --dev
+php artisan breeze:install
 ```
 
 ## Set Default String Length
@@ -46,4 +47,21 @@ Header	Value
 Accept	application/json ✅
 Content-Type	application/json ✅
 Authorization	Bearer <your_token> ✅
+
+## stripe
+
+ "stripe/stripe-php": "^13.9",
+
+## create vue 3
+npm create vue@latest
+
+cd your-project-name
+npm install
+npm run dev
+
+problem crypto hashing
+
+nvm list available
+nvm install 20.7.0
+nvm use 20.7.0
 
